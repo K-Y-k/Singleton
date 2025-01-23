@@ -7,11 +7,8 @@ public class Book {
     private int bookNo;
     private String name;
     private String author;
-    private String type;
+    private ObjectType objectType;
 
-    public Book() {
-        type = "Book";
-    }
 
     public String getName() {
         return name;
@@ -24,6 +21,4 @@ public class Book {
     public String getAuthor() {
         return author;
     }
-
-    //ObjectType type() default ObjectType.Prototype;
 }
